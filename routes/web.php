@@ -22,5 +22,6 @@ Route::middleware(['auth'])->group(function () {
 });
 
 Route::example('my-package-route');
+Route::diskMonitor('my-disk-monitor');
 
 require __DIR__ . '/auth.php';
